@@ -98,3 +98,30 @@ p {
   box-shadow: var(--box-shadow);
   color: white;
 }
+
+@media (max-width: 600px) {
+  h2 {
+    font-size: 24px;
+  }
+  h1 {
+    font-size: 48px;
+  }
+
+  img {
+    display: none;
+  }
+
+  .primary-link {
+    display: block;
+    text-align: center;
+    margin: 10px;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  p {
+    padding: 5px;
+  }
+}
